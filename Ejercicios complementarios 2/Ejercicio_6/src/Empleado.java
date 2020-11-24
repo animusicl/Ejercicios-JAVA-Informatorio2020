@@ -6,11 +6,11 @@ public class Empleado {
 
     private String nombre;
     private String apellido;
-    private String dni;
+    private int dni;
     private int horasTrabajadas;
     private float valorHora;
 
-    public Empleado(String nombre, String apellido, String dni, int horasTrabajadas, float valorHora) {
+    public Empleado(String nombre, String apellido, int dni, int horasTrabajadas, float valorHora) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.dni = dni;
@@ -19,7 +19,7 @@ public class Empleado {
     }
 
 
-    public String getDni() {
+    public int getDni() {
         return dni;
     }
 

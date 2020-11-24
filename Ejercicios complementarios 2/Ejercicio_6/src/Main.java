@@ -9,10 +9,10 @@ public class Main {
 
         Set<Empleado> emp = new HashSet<>();
 
-        Empleado emp1 = new Empleado("Layne", "Staley", "123456", 40, 280);
-        Empleado emp2 = new Empleado("Maynard", "Keenan", "789101", 30, 270);
-        Empleado emp3 = new Empleado("Einar", "Selvik", "111213", 50, 280);
-        Empleado emp4 = new Empleado("Jeff", "Buckley", "141516", 60, 180);
+        Empleado emp1 = new Empleado("Layne", "Staley", 123456, 40, 280);
+        Empleado emp2 = new Empleado("Maynard", "Keenan", 789101, 30, 270);
+        Empleado emp3 = new Empleado("Einar", "Selvik", 111213, 50, 280);
+        Empleado emp4 = new Empleado("Jeff", "Buckley", 141516, 60, 180);
 
         emp.add(emp1);
         emp.add(emp2);

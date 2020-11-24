@@ -12,11 +12,10 @@ import java.util.ArrayList;
  * @author Guada Acosta
  */
 public class Lista {
-    String ciudad;
     ArrayList ciudades = new ArrayList();
     
     
-    public void añadirFavoritos(){
+    public void añadirFavoritos(String ciudad){
     
         ciudades.add(ciudad);
     }
